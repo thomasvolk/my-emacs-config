@@ -1,4 +1,4 @@
-CONFIG_FILES=init.el ocaml.el
+CONFIG_FILES=*.el
 
 all: install
 
