@@ -44,6 +44,17 @@ After every change you have to run load the new packages via sync command
 doom sync
 #+end_src
 
+** Activate spell check
+
+Go to the section ~:checkers~
+#+begin_src emacs-lisp
+(doom!
+  :checkers
+  syntax
+  (spell +flyspell)
+  grammar
+)
+#+end_src
 
 * Org Mode Commands
 
