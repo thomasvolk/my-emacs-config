@@ -1,25 +1,39 @@
 #+TITLE: my-memacs-config
+#+PROPERTY: header-args :tangle elisp.ls
 
 * Table of Contents :toc:
 - [[#my-memacs-config][my-memacs-config]]
-- [[#common-commands][Common commands:]]
+  - [[#simple][simple]]
+  - [[#spacemacs][spacemacs]]
+  - [[#doom][doom]]
+- [[#common-commands][Common Commands:]]
+- [[#org-mode-commands][Org Mode Commands]]
+  - [[#elisp-examples][elisp examples:]]
 
 * my-memacs-config
 
 These are different emacs configuration:
 
-[[[[file:simple/README.md]]][simple]]
-[[[[file:spacemacs/README.org]]][spacemacs]]
-[[[[file:doom/README.org]]][doom]]
+** [[[[file:simple/README.md]]][simple]]
+** [[[[file:spacemacs/README.org]]][spacemacs]]
+** [[[[file:doom/README.org]]][doom]]
 
-* Common commands:
+
+* Common Commands:
 
 | C-x C-f | Open file browser      |
 | C-x C-c | Quit emacs             |
 | C-x o   | Switch between windows |
-| C-c C-c | Execute a code block   |
 
-elisp examples:
+* Org Mode Commands
+
+| TAB     | Un/Fold a section    |
+| <s TAB  | Insert code block |
+| C-c C-c | Execute a code block |
+
+** elisp examples:
+
+Getting the emacs version
 
 #+begin_src emacs-lisp
   (emacs-version)
@@ -28,3 +42,12 @@ elisp examples:
 #+RESULTS:
 : GNU Emacs 30.2 (build 1, aarch64-apple-darwin24.4.0)
 :  of 2025-08-15
+
+say hello
+
+#+begin_src emacs-lisp
+  (message "Hello, World!")
+#+end_src
+
+#+RESULTS:
+: Hello, World!
