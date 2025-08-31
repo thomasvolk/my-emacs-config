@@ -9,6 +9,7 @@
 - [[#common-commands][Common Commands:]]
 - [[#org-mode-commands][Org Mode Commands]]
   - [[#elisp-examples][elisp examples:]]
+  - [[#how-to-tangle-the-code-blocks][How to tangle the code blocks]]
 
 * my-memacs-config
 
@@ -21,14 +22,15 @@ These are different emacs configuration:
 
 * Common Commands:
 
-| C-x C-f | Open file browser      |
-| C-x C-c | Quit emacs             |
-| C-x o   | Switch between windows |
+| C-x C-f       | Open file browser            |
+| C-x C-c       | Quit emacs                   |
+| C-x o         | Switch between windows       |
+| Leader Space  | Switch between buffers       |
 
 * Org Mode Commands
 
 | TAB     | Un/Fold a section    |
-| <s TAB  | Insert code block |
+| <s TAB  | Insert code block    |
 | C-c C-c | Execute a code block |
 
 ** elisp examples:
@@ -36,7 +38,7 @@ These are different emacs configuration:
 Getting the emacs version
 
 #+begin_src emacs-lisp
-  (emacs-version)
+(emacs-version)
 #+end_src
 
 #+RESULTS:
@@ -46,8 +48,16 @@ Getting the emacs version
 say hello
 
 #+begin_src emacs-lisp
-  (message "Hello, World!")
+(message "Hello, World!")
 #+end_src
 
 #+RESULTS:
 : Hello, World!
+
+** How to tangle the code blocks
+
+#+begin_src bash :tangle no
+emacs --batch README.org  -f org-babel-tangle
+#+end_src
+
+#+RESULTS:
