@@ -1,16 +1,39 @@
-#+title: Doom
+#+title: Emacs Doom Distribution
+
+* Setup
+
+** Resources
 
 https://github.com/doomemacs/doomemacs
 
-Installation
+** Installation
 
 #+begin_src bash
   git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.config/emacs
   ~/.config/emacs/bin/doom install
 #+end_src
 
-Start
+** Start
 
 #+begin_src bash
   ~/.config/emacs/bin/doom emacs
+#+end_src
+
+* Configure
+
+** Activate Language Support
+
+Open the ~init.el~ configuration file
+#+begin_src bash
+doom emacs ~/.config/doom/init.el
+#+end_src
+
+Go to the section ~:lang~
+#+begin_src emacs-lisp
+(doom!
+  :lang
+  ocaml
+  org
+  ;;php
+)
 #+end_src
