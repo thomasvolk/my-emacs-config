@@ -10,3 +10,14 @@ Common commands:
 | C-x C-f | Open file browser      |
 | C-x C-c | Quit emacs             |
 | C-x o   | Switch between windows |
+| C-c C-c | Execute a code block   |
+
+elisp examples:
+
+#+begin_src emacs-lisp
+  (emacs-version)
+#+end_src
+
+#+RESULTS:
+: GNU Emacs 30.2 (build 1, aarch64-apple-darwin24.4.0)
+:  of 2025-08-15
