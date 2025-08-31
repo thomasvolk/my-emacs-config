@@ -22,12 +22,14 @@ These are different emacs configuration:
 
 * Common Commands:
 
-| C-x C-f    | Open file browser      |
-| C-x C-c    | Quit emacs             |
-| C-x o      | Switch between windows |
-| C-x b      | Switch between buffers |
-| Leader b b | Switch between files   |
-| M-x term   | Open terminal          |
+| C-x C-f                      | Open file browser        |
+| C-x C-c                      | Quit emacs               |
+| C-x o                        | Switch between windows   |
+| C-x b                        | Switch between buffers   |
+| Leader b b                   | Switch between files     |
+| M-x term                     | Open terminal            |
+| M-x ispell                   | Spellcheck buffer        |
+| M-x ispell-change-dictionary | Change spelling language |
 
 * Org Mode Commands
 
