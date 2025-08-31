@@ -1,0 +1,12 @@
+# my-emacs-config
+
+These are different emacs configuration:
+
+* [[[[file:simple/README.md]]][simple]]
+* [[[[file:spacemacs/README.org]]][spacemacs]]
+
+Common commands:
+
+| C-x C-f | Open file browser      |
+| C-x C-c | Quit emacs             |
+| C-x o   | Switch between windows |
