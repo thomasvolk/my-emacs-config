@@ -7,6 +7,7 @@
   - [[#spacemacs][spacemacs]]
   - [[#doom][doom]]
 - [[#common-commands][Common Commands:]]
+  - [[#spell-check][Spell check]]
 - [[#org-mode-commands][Org Mode Commands]]
   - [[#elisp-examples][elisp examples:]]
   - [[#how-to-tangle-the-code-blocks][How to tangle the code blocks]]
@@ -22,24 +23,27 @@ These are different emacs configuration:
 
 * Common Commands:
 
-| C-x C-f                      | Open file browser                    |
-| C-x C-c                      | Quit emacs                           |
-| C-x o                        | Switch between windows               |
-| C-x b                        | Switch between buffers               |
-| Leader b b                   | Switch between files                 |
-| M-x term                     | Open terminal                        |
+| C-x C-f    | Open file browser      |
+| C-x C-c    | Quit Emacs             |
+| C-x o      | Switch between windows |
+| C-x b      | Switch between buffers |
+| Leader b b | Switch between files   |
+| M-x term   | Open terminal          |
+| F10        | Open menu              |
+
+** Spell check
 | M-$                          | Spellcheck the word below the cursor |
 | M-x ispell                   | Spellcheck buffer                    |
 | M-x ispell-change-dictionary | Change spelling language             |
 
 * Org Mode Commands
 
-| TAB     | Un/Fold a section    |
+| TAB     | Un-/Fold a section   |
 | C-c C-c | Execute a code block |
 
 ** elisp examples:
 
-Getting the emacs version
+Getting the Emacs version
 
 #+begin_src emacs-lisp
 (emacs-version)
