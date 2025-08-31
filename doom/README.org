@@ -1,5 +1,16 @@
 #+title: Emacs Doom Distribution
 
+* Table of Contents :toc:
+- [[#setup][Setup]]
+  - [[#resources][Resources]]
+  - [[#installation][Installation]]
+  - [[#start][Start]]
+- [[#configure][Configure]]
+  - [[#activate-language-support][Activate Language Support]]
+  - [[#activate-spell-check][Activate spell check]]
+  - [[#exit-immediately][Exit immediately]]
+- [[#org-mode-commands][Org Mode Commands]]
+
 * Setup
 
 ** Resources
@@ -54,9 +65,22 @@ Go to the section ~:checkers~
   (spell +flyspell)
   grammar
 )
+o
 #+end_src
 
-* Exit immediately
+*** Set default dictionary
+
+Open the ~config.el~ configuration file
+#+begin_src bash
+doom emacs ~/.config/doom/config.el
+#+end_src
+
+Add the following line
+#+begin_src emacs-lisp
+(setq ispell-dictionary "en_GB")
+#+end_src
+
+** Exit immediately
 
 Open the ~config.el~ configuration file
 #+begin_src bash
