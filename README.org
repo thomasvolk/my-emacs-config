@@ -1,12 +1,18 @@
-# mymemacs-config
+#+TITLE: my-memacs-config
+
+* Table of Contents :toc:
+- [[#my-memacs-config][my-memacs-config]]
+- [[#common-commands][Common commands:]]
+
+* my-memacs-config
 
 These are different emacs configuration:
 
-* [[[[file:simple/README.md]]][simple]]
-* [[[[file:spacemacs/README.org]]][spacemacs]]
-* [[[[file:doom/README.org]]][doom]]
+[[[[file:simple/README.md]]][simple]]
+[[[[file:spacemacs/README.org]]][spacemacs]]
+[[[[file:doom/README.org]]][doom]]
 
-Common commands:
+* Common commands:
 
 | C-x C-f | Open file browser      |
 | C-x C-c | Quit emacs             |
