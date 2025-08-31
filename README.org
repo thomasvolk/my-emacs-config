@@ -22,15 +22,16 @@ These are different emacs configuration:
 
 * Common Commands:
 
-| C-x C-f       | Open file browser            |
-| C-x C-c       | Quit emacs                   |
-| C-x o         | Switch between windows       |
-| Leader Space  | Switch between buffers       |
+| C-x C-f    | Open file browser      |
+| C-x C-c    | Quit emacs             |
+| C-x o      | Switch between windows |
+| C-x b      | Switch between buffers |
+| Leader b b | Switch between files   |
+| M-x term   | Open terminal          |
 
 * Org Mode Commands
 
 | TAB     | Un/Fold a section    |
-| <s TAB  | Insert code block    |
 | C-c C-c | Execute a code block |
 
 ** elisp examples:
