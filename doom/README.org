@@ -38,6 +38,12 @@ Go to the section ~:lang~
 )
 #+end_src
 
+After every change you have to run load the new packages via sync command
+
+#+begin_src bash
+doom sync
+#+end_src
+
 
 * Org Mode Commands
 
