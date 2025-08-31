@@ -1,9 +1,10 @@
-# my-emacs-config
+# mymemacs-config
 
 These are different emacs configuration:
 
 * [[[[file:simple/README.md]]][simple]]
 * [[[[file:spacemacs/README.org]]][spacemacs]]
+* [[[[file:doom/README.org]]][doom]]
 
 Common commands:
 

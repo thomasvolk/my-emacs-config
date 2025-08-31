@@ -1,0 +1,16 @@
+#+title: Doom
+
+https://github.com/doomemacs/doomemacs
+
+Installation
+
+#+begin_src bash
+  git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.config/emacs
+  ~/.config/emacs/bin/doom install
+#+end_src
+
+Start
+
+#+begin_src bash
+  ~/.config/emacs/bin/doom emacs
+#+end_src
