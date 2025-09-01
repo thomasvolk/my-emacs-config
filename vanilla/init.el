@@ -2,6 +2,7 @@
 
 (global-set-key (kbd "<C-return>") 'dabbrev-completion)
 (global-set-key (kbd "M-#") 'dabbrev-expand)
+(setq column-number-mode t)
 
 ;; package archive
 (require 'package)
@@ -21,3 +22,10 @@
 (require 'use-package)
 (setq use-package-verbose t)
 
+;; Download Evil
+(unless (package-installed-p 'evil)
+  (package-install 'evil))
+
+;; Enable Evil
+(require 'evil)
+(evil-mode 1)
