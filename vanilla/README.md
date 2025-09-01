@@ -1,4 +1,4 @@
-# my-emacs-config
+# my-emacs-config / vanilla
 
 Installation:
 

@@ -3,7 +3,7 @@
 
 * Table of Contents :toc:
 - [[#my-memacs-config][my-memacs-config]]
-  - [[#simple][simple]]
+  - [[#vanilla][vanilla]]
   - [[#spacemacs][spacemacs]]
   - [[#doom][doom]]
 - [[#common-commands][Common Commands:]]
@@ -16,7 +16,7 @@
 
 These are different emacs configuration:
 
-** [[[[file:simple/README.md]]][simple]]
+** [[[[file:vanilla/README.md]]][vanilla]]
 ** [[[[file:spacemacs/README.org]]][spacemacs]]
 ** [[[[file:doom/README.org]]][doom]]
 

@@ -1,8 +1,14 @@
-# spacemacs
+#+TITLE spacemacs
 
 Installation
 
 #+begin_src bash
-  mv ~/.emacs.d ~/.emacs.d_bak
-  git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
+  git clone https://github.com/syl20bnr/spacemacs ~/.spacemacs.d
 #+end_src
+
+Start
+
+#+begin_src bash
+  emacs --init-directory ~/.spacemacs.d
+#+end_src
+
