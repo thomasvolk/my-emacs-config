@@ -10,5 +10,5 @@ $(TRG):
 config: $(TRG)
 	cp config.el init.el packages.el $(DOOM)
 
-sync:
+sync: config
 	$(TRG)/bin/doom sync
