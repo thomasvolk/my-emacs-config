@@ -9,7 +9,8 @@
   - [[#activate-language-support][Activate Language Support]]
   - [[#activate-spell-check][Activate spell check]]
   - [[#exit-immediately][Exit immediately]]
-- [[#org-mode-commands][Org Mode Commands]]
+- [[#common-commands][Common Commands:]]
+  - [[#org-mode-commands][Org Mode Commands]]
 
 * Setup
 
@@ -92,7 +93,11 @@ Add the following line
 (setq confirm-kill-emacs nil)
 #+end_src
 
+* Common Commands:
 
-* Org Mode Commands
+| Leader b b | Switch between files   |
+
+** Org Mode Commands
 
 | <s TAB  | Insert code block    |
+| Return  | Execute code block   |
