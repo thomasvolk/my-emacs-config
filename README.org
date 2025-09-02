@@ -7,6 +7,7 @@
   - [[#spacemacs][spacemacs]]
   - [[#doom][doom]]
 - [[#common-commands][Common Commands:]]
+  - [[#shell-commands][Shell commands]]
   - [[#spell-check][Spell check]]
 - [[#org-mode-commands][Org Mode Commands]]
   - [[#elisp-examples][elisp examples:]]
@@ -27,11 +28,16 @@ These are different emacs configuration:
 | C-x C-c    | Quit Emacs             |
 | C-x o      | Switch between windows |
 | C-x b      | Switch between buffers |
-| Leader b b | Switch between files   |
-| M-x term   | Open terminal          |
 | F10        | Open menu              |
 
+** Shell commands
+
+| M-x term   | Open terminal          |
+| M-x shell  | Open shell     |
+| M-!        | execute shell command  |
+
 ** Spell check
+
 | M-$                          | Spellcheck the word below the cursor |
 | M-x ispell                   | Spellcheck buffer                    |
 | M-x ispell-change-dictionary | Change spelling language             |
