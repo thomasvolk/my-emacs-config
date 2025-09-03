@@ -1,5 +1,4 @@
 ;; Key bindings
-
 (global-set-key (kbd "<C-return>") 'dabbrev-completion)
 (global-set-key (kbd "M-#") 'dabbrev-expand)
 (setq column-number-mode t)

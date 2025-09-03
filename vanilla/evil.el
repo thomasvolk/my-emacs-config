@@ -1,6 +1,7 @@
-;; Download Evil
-(unless (package-installed-p 'evil)
-  (package-install 'evil))
+(use-package evil
+  :ensure t
+  :config
+  (evil))
 
 ;; Enable Evil
 (require 'evil)
