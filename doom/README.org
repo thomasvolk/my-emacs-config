@@ -1,6 +1,7 @@
 #+title: Emacs Doom Distribution
 
 * Table of Contents :toc:
+- [[#documentation][Documentation]]
 - [[#setup][Setup]]
   - [[#resources][Resources]]
   - [[#installation][Installation]]
@@ -11,6 +12,11 @@
   - [[#exit-immediately][Exit immediately]]
 - [[#common-commands][Common Commands:]]
   - [[#org-mode-commands][Org Mode Commands]]
+  - [[#projectile][Projectile]]
+
+* Documentation
+
+https://practical.li/doom-emacs/
 
 * Setup
 
@@ -101,3 +107,13 @@ Add the following line
 
 | <s TAB  | Insert code block    |
 | Return  | Execute code block   |
+
+** Projectile
+
+| Space p a | Add new project to doom           |
+| Space p p | Switch between projects           |
+| Space p f | List files in the current project |
+| Space f f | Open or create files              |
+| Space /   | Search in all project files       |
+| Space w v | Create a vertical window          |
+| Space w h | Create a horizontal window        |
