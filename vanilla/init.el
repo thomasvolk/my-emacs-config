@@ -22,18 +22,8 @@
 (require 'use-package)
 (setq use-package-verbose t)
 
-;; Download Evil
-(unless (package-installed-p 'evil)
-  (package-install 'evil))
-
-;; Enable Evil
-(require 'evil)
-(evil-mode 1)
-
-(unless (package-installed-p 'projectile)
-  (package-install 'projectile))
-
-(require 'projectile)
-;; Recommended keymap prefix on Windows/Linux
-(define-key projectile-mode-map (kbd "C-c p") 'projectile-command-map)
-(projectile-mode +1)
+(load "~/.emacs.d/evil.el")
+(load "~/.emacs.d/ocaml.el")
+(load "~/.emacs.d/python.el")
+(load "~/.emacs.d/treemacs.el")
+(load "~/.emacs.d/projectile.el")
