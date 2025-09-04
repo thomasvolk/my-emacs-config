@@ -77,3 +77,8 @@
 
 (setq confirm-kill-emacs nil)
 (setq ispell-dictionary "en_GB")
+
+(map!
+ "C-x C-n" #'treemacs
+ "C-c n" #'treemacs-select-window
+)

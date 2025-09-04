@@ -1,9 +1,5 @@
 (use-package evil
   :ensure t
+  :init
   :config
-  (evil))
-
-;; Enable Evil
-(require 'evil)
-(evil-mode 1)
-
+  (evil-mode))
