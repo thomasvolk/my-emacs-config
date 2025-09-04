@@ -1,8 +1,3 @@
-;; Key bindings
-(global-set-key (kbd "<C-return>") 'dabbrev-completion)
-(global-set-key (kbd "M-#") 'dabbrev-expand)
-(setq column-number-mode t)
-
 ;; package archive
 (require 'package)
 
@@ -21,8 +16,10 @@
 (require 'use-package)
 (setq use-package-verbose t)
 
+(load "~/.emacs.d/basic.el")
 (load "~/.emacs.d/evil.el")
 (load "~/.emacs.d/ocaml.el")
 (load "~/.emacs.d/python.el")
 (load "~/.emacs.d/treemacs.el")
 (load "~/.emacs.d/projectile.el")
+(load "~/.emacs.d/key-bindings.el")

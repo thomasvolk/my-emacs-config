@@ -16,6 +16,8 @@
 
 * Documentation
 
+https://docs.doomemacs.org/
+
 https://practical.li/doom-emacs/
 
 * Setup
@@ -101,7 +103,8 @@ Add the following line
 
 * Common Commands:
 
-| Leader b b | Switch between files   |
+| Leader b b | Switch between files      |
+| M-[0..9]   | Switch between workspaces |
 
 ** Org Mode Commands
 
