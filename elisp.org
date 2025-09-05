@@ -1,0 +1,21 @@
+#+TITLE: Elisp Examples
+
+say hello
+
+#+begin_src emacs-lisp
+(message "Hello, World!")
+#+end_src
+
+#+RESULTS:
+: Hello, World!
+
+If and function
+
+#+begin_src emacs-lisp
+(defun foo (x) (if x 1 0))
+(list (foo t) (foo nil))
+
+#+end_src
+
+#+RESULTS:
+| 1 | 0 |
