@@ -1,3 +1,7 @@
+(use-package lsp-mode
+  :hook
+  (tuareg-mode . lsp))
+
 ;; Major mode for OCaml programming
 (use-package tuareg
   :ensure t
