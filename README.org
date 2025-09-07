@@ -47,6 +47,12 @@ These are different emacs configuration:
 | TAB     | Un-/Fold a section   |
 | C-c C-c | Execute a code block |
 
+** Projectile
+
+| C-c p p | Switch project       |
+| C-c p f | Open file in project |
+
+
 ** elisp examples:
 
 Getting the Emacs version
