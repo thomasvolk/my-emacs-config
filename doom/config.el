@@ -79,6 +79,7 @@
 (setq ispell-dictionary "en_GB")
 
 (map!
- "C-x C-n" #'treemacs
- "C-c n" #'treemacs-select-window
+ "C-c n n" #'treemacs-select-window
+ "C-c n t" #'treemacs
+ "C-c n p" #'treemacs-display-current-project-exclusively
 )

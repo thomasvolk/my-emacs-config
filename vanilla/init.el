@@ -20,6 +20,6 @@
 (load "~/.emacs.d/evil.el")
 (load "~/.emacs.d/ocaml.el")
 (load "~/.emacs.d/python.el")
-(load "~/.emacs.d/treemacs.el")
 (load "~/.emacs.d/projectile.el")
+(load "~/.emacs.d/treemacs.el")
 (load "~/.emacs.d/key-bindings.el")
