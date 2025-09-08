@@ -5,5 +5,7 @@
 (global-set-key (kbd "C-c n t") 'treemacs)
 (global-set-key (kbd "C-c n p") 'treemacs-display-current-project-exclusively)
 
-;; General config
-(setq column-number-mode t)
+;; evil bindings
+(evil-set-leader 'motion (kbd "SPC"))
+(evil-define-key 'normal 'global (kbd "<leader>n") 'treemacs-select-window)
+(evil-define-key 'normal 'global (kbd "<leader>b b") 'ibuffer)
