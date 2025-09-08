@@ -7,5 +7,5 @@
 
 ;; evil bindings
 (evil-set-leader 'motion (kbd "SPC"))
-(evil-define-key 'normal 'global (kbd "<leader>n") 'treemacs-select-window)
+(evil-define-key 'normal 'global (kbd "<leader>n n") 'treemacs-select-window)
 (evil-define-key 'normal 'global (kbd "<leader>b b") 'ibuffer)
