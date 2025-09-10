@@ -25,3 +25,5 @@
 (evil-define-key 'normal 'global (kbd "<leader>w <down>") 'windmove-down)
 ;; projects
 (evil-define-key 'normal 'global (kbd "<leader>p p") 'projectile-switch-project)
+(evil-define-key 'normal 'global (kbd "<leader>p a") 'projectile-add-known-project)
+(evil-define-key 'normal 'global (kbd "<leader>p s") 'projectile-grep)
