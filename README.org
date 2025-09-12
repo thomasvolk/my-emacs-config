@@ -26,9 +26,21 @@ These are different emacs configuration:
 
 | C-x C-f    | Open file browser      |
 | C-x C-c    | Quit Emacs             |
+| F10        | Open menu              |
+
+* Navigating
+
 | C-x o      | Switch between windows |
 | C-x b      | Switch between buffers |
-| F10        | Open menu              |
+| C-x 0      | Close window |
+
+* Editing
+
+| C-_             | Undo                                                            |
+| C-/             | Undo                                                            |
+| C-g C-_         | Redo                                                            |
+| C-g C-/         | Redo                                                            |
+| C-u <n> <input> | Repeates actions (e.g. C-u 8 * is adding eight * to the buffer) |
 
 ** Shell commands
 
