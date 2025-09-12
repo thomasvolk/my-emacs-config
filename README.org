@@ -24,9 +24,10 @@ These are different emacs configuration:
 
 * Common Commands:
 
-| C-x C-f    | Open file browser      |
-| C-x C-c    | Quit Emacs             |
-| F10        | Open menu              |
+| C-x C-f | Open file browser   |
+| C-x C-c | Quit Emacs          |
+| F10     | Open menu           |
+| C-g     | Quit current action |
 
 * Navigating
 
@@ -68,14 +69,6 @@ These are different emacs configuration:
 ** elisp examples:
 
 Getting the Emacs version
-
-#+begin_src emacs-lisp
-(emacs-version)
-#+end_src
-
-#+RESULTS:
-: GNU Emacs 30.2 (build 1, aarch64-apple-darwin24.4.0)
-:  of 2025-08-15
 
 say hello
 
