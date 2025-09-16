@@ -17,7 +17,7 @@
 
 These are different emacs configuration:
 
-** [[[[file:vanilla/README.md]]][vanilla]]
+** [[[[file:vanilla/README.org]]][vanilla]]
 ** [[[[file:spacemacs/README.org]]][spacemacs]]
 ** [[[[file:doom/README.org]]][doom]]
 
