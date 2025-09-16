@@ -18,7 +18,9 @@
 
 (load "~/.emacs.d/basic.el")
 (load "~/.emacs.d/evil.el")
+(load "~/.emacs.d/flycheck.el")
 (load "~/.emacs.d/lsp.el")
+(load "~/.emacs.d/company.el")
 (load "~/.emacs.d/ocaml.el")
 (load "~/.emacs.d/python.el")
 (load "~/.emacs.d/projectile.el")
