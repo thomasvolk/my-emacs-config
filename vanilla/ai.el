@@ -9,7 +9,6 @@
     (define-key copilot-completion-map (kbd "TAB") 'copilot-accept-completion)
     (global-set-key (kbd "C-c a") 'copilot-mode)
   )
-  (
     (use-package codeium
       :vc (:url "https://github.com/Exafunction/codeium.el"
             :rev :newest
@@ -21,5 +20,5 @@
       ;; Add Codeium to company backends
       (add-to-list 'company-backends 'codeium-company)
       ;; Run M-x codeium-install after installation
-      )
     )
+)
