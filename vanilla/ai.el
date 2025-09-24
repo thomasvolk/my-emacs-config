@@ -1,4 +1,4 @@
-(if (eq "copilot" (getenv "EDITOR_AI"))
+(if (string= "copilot" (getenv "EDITOR_AI"))
   (
     (use-package copilot
 	:vc (:url "https://github.com/copilot-emacs/copilot.el"
@@ -12,7 +12,7 @@
   nil
 )
 
-(if (eq "codeium" (getenv "EDITOR_AI"))
+(if (string= "codeium" (getenv "EDITOR_AI"))
     (use-package codeium
       :vc (:url "https://github.com/Exafunction/codeium.el"
             :rev :newest
