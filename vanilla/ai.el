@@ -1,5 +1,5 @@
-(if (string= "copilot" (getenv "EDITOR_AI"))
-  (
+(when (string= "copilot" (getenv "EDITOR_AI"))
+  (progn
     (use-package copilot
 	:vc (:url "https://github.com/copilot-emacs/copilot.el"
 		:rev :newest
@@ -9,5 +9,4 @@
     (define-key copilot-completion-map (kbd "TAB") 'copilot-accept-completion)
     (global-set-key (kbd "C-c a") 'copilot-mode)
   )
-  nil
 )
