@@ -10,3 +10,15 @@
     (global-set-key (kbd "C-c a") 'copilot-mode)
   )
 )
+
+(when (string= "ellama" (getenv "EDITOR_AI"))
+  (use-package ellama
+    :vc (:url "https://github.com/s-kostyaev/ellama"
+                :rev :newest
+                :branch "main")
+    :ensure t
+    :init
+    ;; setup key bindings
+    (setopt ellama-keymap-prefix "C-c e")
+  )
+)

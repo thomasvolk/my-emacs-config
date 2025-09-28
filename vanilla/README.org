@@ -8,6 +8,17 @@ Install the python LSP server:
 pip install 'python-lsp-server[all]'
 #+end_src
 
+For ellama you need a local LLM running:
+
+#+begin_src bash :tangle no
+brew install ollama
+#+end_src
+
+Use the Zephyr model:
+#+begin_src bash :tangle no
+ollama pull zephyr
+#+end_src
+
 * Installation:
 
 #+begin_src bash :tangle no
