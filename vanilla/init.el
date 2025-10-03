@@ -22,6 +22,7 @@
 (load "~/.emacs.d/lsp.el")
 (load "~/.emacs.d/company.el")
 (load "~/.emacs.d/ocaml.el")
+(load "~/.emacs.d/markdown.el")
 (load "~/.emacs.d/python.el")
 (load "~/.emacs.d/projectile.el")
 (load "~/.emacs.d/treemacs.el")
