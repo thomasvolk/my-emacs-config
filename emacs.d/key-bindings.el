@@ -35,3 +35,4 @@
 (evil-define-key 'normal 'global (kbd "<leader>p a") 'projectile-add-known-project)
 (evil-define-key 'normal 'global (kbd "<leader>p s") 'projectile-grep)
 (evil-define-key 'normal 'global (kbd "<leader>p f") 'projectile-find-file)
+(evil-define-key 'normal 'global (kbd "<leader>p c") 'projectile-compile-project)
