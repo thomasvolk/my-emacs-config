@@ -1,25 +1,48 @@
 #+TITLE: my-memacs-config
 #+PROPERTY: header-args :tangle elisp.ls
 
-* Table of Contents :toc:
-- [[#my-memacs-config][my-memacs-config]]
-  - [[#vanilla][vanilla]]
-  - [[#spacemacs][spacemacs]]
-  - [[#doom][doom]]
-- [[#common-commands][Common Commands:]]
-  - [[#shell-commands][Shell commands]]
-  - [[#spell-check][Spell check]]
-- [[#org-mode-commands][Org Mode Commands]]
-  - [[#elisp-examples][elisp examples:]]
-  - [[#how-to-tangle-the-code-blocks][How to tangle the code blocks]]
+* Prerequisites
 
-* my-memacs-config
+Install the python LSP server:
 
-These are different emacs configuration:
+#+begin_src bash :tangle no
+pip install 'python-lsp-server[all]'
+#+end_src
 
-** [[[[file:vanilla/README.org]]][vanilla]]
-** [[[[file:spacemacs/README.org]]][spacemacs]]
-** [[[[file:doom/README.org]]][doom]]
+For ellama you need a local LLM running:
+
+#+begin_src bash :tangle no
+brew install ollama
+#+end_src
+
+Use the Zephyr model:
+#+begin_src bash :tangle no
+ollama pull zephyr
+#+end_src
+
+* Installation:
+
+#+begin_src bash :tangle no
+make
+#+end_src
+
+** macos
+
+*** ITerm2
+
+Q: How do I make the option/alt key act like Meta or send escape codes?
+A: Go to Preferences > Profiles tab. Select your profile on the left, and then open the Keyboard tab. At the bottom is a set of buttons that lets you select the behavior of the Option key. For most users, Esc+ will be the best choice.
+
+** AI
+
+*** Github Copilot
+
+https://github.com/copilot-emacs/copilot.el
+
+Install copilot language server
+#+begin_src bash :tangle no
+npm install -g @github/copilot-language-server
+#+end_src
 
 
 * Common Commands:
