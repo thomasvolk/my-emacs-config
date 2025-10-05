@@ -1,0 +1,30 @@
+#+TITLE: Defining Emacs Code Templates
+
+#+begin_src elisp
+  (require 'tempo)
+  (setq tempo-interactive t)
+#+end_src
+
+#+RESULTS:
+: t
+
+#+begin_src elisp
+  (tempo-define-template "begin-environment"
+    '("\\begin{" (p "Environment: " environment) "}" > n>
+      r> n>
+      "\\end{" (s environment) "}" > n)
+    nil
+    "Insert a LaTeX environment.")
+#+end_src
+
+#+RESULTS:
+: tempo-template-begin-environment
+
+Now you can execute this template with M-x tempo-template-begin-environment
+Now write 'hello' to get the following result:
+
+#+begin_src latex
+\begin{hello}
+
+\end{hello}
+#+end_src
