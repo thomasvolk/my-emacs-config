@@ -103,7 +103,7 @@ say hello
 : Hello, World!
 
 
-For more see [[[[file:elisp.org]]]]
+For more see [[[[file:doc/elisp.org]]]]
 
 ** How to tangle the code blocks
 

@@ -1,4 +1,4 @@
-CONFIG_FILES=*.el
+CONFIG_FILES=emacs.d/*.el
 
 all: install
 
