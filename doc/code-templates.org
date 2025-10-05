@@ -28,3 +28,21 @@ Now write 'hello' to get the following result:
 
 \end{hello}
 #+end_src
+
+** Define abbrevs
+
+Activate abbrev Mode: M-x abbrev-mode
+
+Define abbrev:
+
+#+begin_src elisp
+  (define-abbrev-table 'global-abbrev-table
+  '(
+    ("be" "" tempo-template-begin-environment :count 1)
+   ))
+#+end_src
+
+#+RESULTS:
+
+Now type "be":
+
