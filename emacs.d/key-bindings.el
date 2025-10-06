@@ -36,3 +36,6 @@
 (evil-define-key 'normal 'global (kbd "<leader>p s") 'projectile-grep)
 (evil-define-key 'normal 'global (kbd "<leader>p f") 'projectile-find-file)
 (evil-define-key 'normal 'global (kbd "<leader>p c") 'projectile-compile-project)
+;; abbrev mode
+(evil-define-key 'normal 'global (kbd "<leader>a a") 'abbrev-mode)
+
