@@ -12,10 +12,15 @@ Selects everything in the current buffer:
 : select-all
 
 #+begin_src elisp
-(defun hlp ()
-  (interactive)
-  (with-help-window "*test*"
-    (princ "hello from test")))
+       (defun hlp ()
+         (interactive)
+         (with-help-window "*help test*"
+           (princ "
+    Help Test
+    ---------
+       
+    this is a help test window
+  ")))
 #+end_src
 
 #+RESULTS:
