@@ -1,0 +1,22 @@
+#+TITLE: Commands
+
+Selects everything in the current buffer:
+
+#+begin_src elisp
+(defun select-all ()
+  (interactive)
+  (mark-whole-buffer))
+#+end_src
+
+#+RESULTS:
+: select-all
+
+#+begin_src elisp
+(defun hlp ()
+  (interactive)
+  (with-help-window "*test*"
+    (princ "hello from test")))
+#+end_src
+
+#+RESULTS:
+: hlp
