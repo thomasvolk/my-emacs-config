@@ -25,6 +25,16 @@ Install the python LSP server:
 pip install 'python-lsp-server[all]'
 #+end_src
 
+Install Java LSP server:
+
+When the java-lsp module asks for to install the language server say 'y' and
+enter 'jdtls' if it prompts for the language server name.
+
+Install the language server via brew:
+#+begin_src 
+ brew install jdtls
+#+end_src
+
 For ellama you need a local LLM running:
 
 #+begin_src bash :tangle no
