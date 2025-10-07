@@ -25,6 +25,7 @@
 (load "~/.emacs.d/markdown.el")
 (load "~/.emacs.d/python.el")
 (load "~/.emacs.d/java.el")
+(load "~/.emacs.d/typescript.el")
 (load "~/.emacs.d/projectile.el")
 (load "~/.emacs.d/treemacs.el")
 (load "~/.emacs.d/org.el")
