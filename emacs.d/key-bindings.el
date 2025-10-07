@@ -38,4 +38,6 @@
 (evil-define-key 'normal 'global (kbd "<leader>p c") 'projectile-compile-project)
 ;; abbrev mode
 (evil-define-key 'normal 'global (kbd "<leader>a a") 'abbrev-mode)
+;; help
+(evil-define-key 'normal 'global (kbd "<leader>h h") 'my-little-help)
 
