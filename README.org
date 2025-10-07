@@ -6,14 +6,6 @@
 - [[#installation][Installation:]]
   - [[#macos][macos]]
   - [[#ai][AI]]
-- [[#common-commands][Common Commands:]]
-- [[#navigating][Navigating]]
-- [[#editing][Editing]]
-  - [[#shell-commands][Shell commands]]
-  - [[#spell-check][Spell check]]
-  - [[#development][Development]]
-- [[#org-mode-commands][Org Mode Commands]]
-  - [[#projectile][Projectile]]
   - [[#elisp-examples][elisp examples:]]
   - [[#how-to-tangle-the-code-blocks][How to tangle the code blocks]]
 
@@ -23,6 +15,16 @@ Install the python LSP server:
 
 #+begin_src bash :tangle no
 pip install 'python-lsp-server[all]'
+#+end_src
+
+Install Java LSP server:
+
+When the java-lsp module asks for to install the language server say 'y' and
+enter 'jdtls' if it prompts for the language server name.
+
+Install the language server via brew:
+#+begin_src 
+ brew install jdtls
 #+end_src
 
 For ellama you need a local LLM running:
@@ -59,56 +61,6 @@ Install copilot language server
 #+begin_src bash :tangle no
 npm install -g @github/copilot-language-server
 #+end_src
-
-
-* Common Commands:
-
-| C-x C-f | Open file browser   |
-| C-x C-c | Quit Emacs          |
-| F10     | Open menu           |
-| C-g     | Quit current action |
-
-* Navigating
-
-| C-x o      | Switch between windows |
-| C-x b      | Switch between buffers |
-| C-x 0      | Close window |
-
-* Editing
-
-| C-_             | Undo                                                            |
-| C-/             | Undo                                                            |
-| C-g C-_         | Redo                                                            |
-| C-g C-/         | Redo                                                            |
-| C-u <n> <input> | Repeates actions (e.g. C-u 8 * is adding eight * to the buffer) |
-
-** Shell commands
-
-| M-x term   | Open terminal          |
-| M-x shell  | Open shell     |
-| M-!        | execute shell command  |
-
-** Spell check
-
-| M-$                          | Spellcheck the word below the cursor |
-| M-x ispell                   | Spellcheck buffer                    |
-| M-x ispell-change-dictionary | Change spelling language             |
-
-** Development
-
-| M-x compile              | compile project |
-
-* Org Mode Commands
-
-| TAB     | Un-/Fold a section                 |
-| C-c C-c | Execute a code block               |
-| C-c C-q | add tag to a section (example TOC) |
-
-** Projectile
-
-| C-c p p | Switch project       |
-| C-c p f | Open file in project |
-
 
 ** elisp examples:
 
