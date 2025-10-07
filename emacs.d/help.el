@@ -46,5 +46,10 @@
 * Projectile
    C-c p p                      | Switch project
    C-c p f                      | Open file in project
-
+* Git
+   C-x g                        | Enter magit mode
+* AI
+   C-c e c c                    | Ellama code complete
+   C-c e a i                    | Ellama chat
+   C-c a                        | Copilot toggle
 ")))
