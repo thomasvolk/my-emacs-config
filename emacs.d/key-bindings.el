@@ -22,6 +22,7 @@
 (evil-define-key 'normal 'global (kbd "<leader>b <right>") 'next-buffer)
 ;; shell commands / compile / reload
 (evil-define-key 'normal 'global (kbd "<leader>x x") 'shell-command)
+(evil-define-key 'normal 'global (kbd "<leader>x s") 'shell)
 (evil-define-key 'normal 'global (kbd "<leader>x c") 'compile)
 (evil-define-key 'normal 'global (kbd "<leader>x r") 'refresh)
 ;; windows
@@ -33,7 +34,7 @@
 ;; projects
 (evil-define-key 'normal 'global (kbd "<leader>p p") 'projectile-switch-project)
 (evil-define-key 'normal 'global (kbd "<leader>p a") 'projectile-add-known-project)
-(evil-define-key 'normal 'global (kbd "<leader>p s") 'projectile-grep)
+(evil-define-key 'normal 'global (kbd "<leader>p g") 'projectile-grep)
 (evil-define-key 'normal 'global (kbd "<leader>p f") 'projectile-find-file)
 (evil-define-key 'normal 'global (kbd "<leader>p c") 'projectile-compile-project)
 ;; abbrev mode

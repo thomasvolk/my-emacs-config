@@ -15,27 +15,34 @@
    C-x o                        | Switch between windows
    C-x b                        | Switch between buffers
    C-x 0                        | Close window
+   C-x Right                    | Next buffer
+   C-x Left                     | Prev buffer
 * Editing
    C-_                          | Undo
    C-/                          | Undo
    C-g C-_                      | Redo
    C-g C-/                      | Redo
    C-u <n> <input>              | Repeates actions (e.g. C-u 8 * is adding eight * to the buffer)
+   SPC a a                      | Toggle abbrev mode
 * Shell
-   M-x term                     | Open terminal
+   SPC x s                      | Open shell
+   SPC p c                      | Compile project
    M-x shell                    | Open shell
+   M-x term                     | Open terminal
    M-!                          | Execute shell command
 * Spell check
    M-$                          | Spellcheck the word below the cursor
    M-x ispell                   | Spellcheck buffer
    M-x ispell-change-dictionary | Change spelling language
 * Development
-   M-x compile                  | Compile project
+   M-x compile                  | Compile
+   C-c p !                      | Run shell command in project
    C-c C-o                      | Open outline
 * Org Mode Commands
    TAB                          | Un-/Fold a section
    C-c C-c                      | Execute a code block
    C-c C-q                      | Add tag to a section (example TOC)
+   <s TAB                       | Add source block
 * Projectile
    C-c p p                      | Switch project
    C-c p f                      | Open file in project
