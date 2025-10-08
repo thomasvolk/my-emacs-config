@@ -27,17 +27,6 @@ Install the language server via brew:
  brew install jdtls
 #+end_src
 
-For ellama you need a local LLM running:
-
-#+begin_src bash :tangle no
-brew install ollama
-#+end_src
-
-Use the Zephyr model:
-#+begin_src bash :tangle no
-ollama pull zephyr
-#+end_src
-
 * Installation:
 
 #+begin_src bash :tangle no
@@ -57,9 +46,26 @@ A: Go to Preferences > Profiles tab. Select your profile on the left, and then o
 
 https://github.com/copilot-emacs/copilot.el
 
-Install copilot language server
+Install copilot language server with M-x copilot-install-server or in the terminal:
+
 #+begin_src bash :tangle no
 npm install -g @github/copilot-language-server
+#+end_src
+
+Login with M-x copilot-login
+
+
+*** Ellame
+
+For ellama you need a local LLM running:
+
+#+begin_src bash :tangle no
+brew install ollama
+#+end_src
+
+Use the Zephyr model:
+#+begin_src bash :tangle no
+ollama pull zephyr
 #+end_src
 
 ** elisp examples:
