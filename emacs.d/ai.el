@@ -1,4 +1,14 @@
-(when (string= "copilot" (getenv "EDITOR_AI"))
+
+(setq emacs-ai-provider (getenv "EMACS_EDITOR_AI"))
+(setq ai-provider
+  (if
+    (eq emacs-ai-provider nil)
+    (getenv "EDITOR_AI")
+    emacs-ai-provider
+  )
+)
+
+(when (string= "copilot" ai-provider)
   (progn
     (use-package copilot
 	:vc (:url "https://github.com/copilot-emacs/copilot.el"
@@ -13,7 +23,7 @@
   )
 )
 
-(when (string= "ellama" (getenv "EDITOR_AI"))
+(when (string= "ellama" ai-provider)
   (use-package ellama
     :vc (:url "https://github.com/s-kostyaev/ellama"
                 :rev :newest
