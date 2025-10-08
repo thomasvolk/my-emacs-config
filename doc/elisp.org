@@ -1,3 +1,4 @@
+# -*- org-confirm-babel-evaluate: nil -*-
 #+TITLE: Elisp Examples
 
 say hello
@@ -9,6 +10,15 @@ say hello
 #+RESULTS:
 : Hello, World!
 
+Deactivate promp before every execution:
+
+#+begin_src elisp
+(setq org-confirm-babel-evaluate t)
+#+end_src
+
+#+RESULTS:
+: t
+
 If and function
 
 #+begin_src emacs-lisp
@@ -19,3 +29,11 @@ If and function
 
 #+RESULTS:
 | 1 | 0 |
+
+#+begin_src elisp
+  (setq a (if (eq (getenv "HOME") nil) 0 1))
+  (* a 100)
+#+end_src
+
+#+RESULTS:
+: 100
