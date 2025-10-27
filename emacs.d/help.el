@@ -47,7 +47,12 @@
    C-c p p                      | Switch project
    C-c p f                      | Open file in project
 * Git
-   C-x g                        | Enter magit mode
+   C-x g                        | Enter magit mode |
+             | h                | View help
+             | s                | Stage changes
+             | c c              | Create commit
+             | C-c C-c          | Exit editor and commit
+             | q                | Quit
 * AI
    C-c e c c                    | Ellama code complete
    C-c e a i                    | Ellama chat
