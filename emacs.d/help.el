@@ -52,6 +52,7 @@
              | s                | Stage changes
              | c c              | Create commit
              | C-c C-c          | Exit editor and commit
+             | P u              | Push changes
              | q                | Quit
 * AI
    C-c e c c                    | Ellama code complete
