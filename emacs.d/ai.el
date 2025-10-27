@@ -20,6 +20,7 @@
     (global-set-key (kbd "C-c a") 'copilot-mode)
     (add-hook 'prog-mode-hook 'copilot-mode)
     (add-hook 'text-mode-hook 'copilot-mode)
+    (setq copilot-indent-offset-warning-disable t)
   )
 )
 
