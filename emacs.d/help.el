@@ -27,9 +27,11 @@
 * Shell
    SPC x s                      | Open shell
    SPC p c                      | Compile project
+   M-!                          | Execute shell command
    M-x shell                    | Open shell
    M-x term                     | Open terminal
-   M-!                          | Execute shell command
+             | C-c o            | Switch between windows (from terminal)
+             | C-c b            | Switch between buffers (from terminal)
 * Spell check
    M-$                          | Spellcheck the word below the cursor
    M-x ispell                   | Spellcheck buffer
