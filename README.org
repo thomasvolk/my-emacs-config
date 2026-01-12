@@ -1,5 +1,7 @@
-#+TITLE: my-memacs-config
+#+TITLE: my-emacs-config
 #+PROPERTY: header-args :tangle elisp.ls
+
+This is my Emacs configuration.
 
 * Table of Contents                                                     :TOC:
 - [[#prerequisites][Prerequisites]]
