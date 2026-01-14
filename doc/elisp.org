@@ -31,9 +31,16 @@ If and function
 | 1 | 0 |
 
 #+begin_src elisp
-  (setq a (if (eq (getenv "HOME") nil) 0 1))
+  (defvar a (if (eq (getenv "HOME") nil) 0 1))
   (* a 100)
 #+end_src
 
 #+RESULTS:
 : 100
+
+#+begin_src elisp
+  (let ((a 4) (b 3)) (* a 100 b))
+#+end_src
+
+#+RESULTS:
+: 1200
