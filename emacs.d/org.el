@@ -15,4 +15,4 @@
 ;; active Babel languages
 (org-babel-do-load-languages
 'org-babel-load-languages
-'((shell . t)))
+'((shell . t) (java . t) (python . t) (emacs-lisp . t) (js . t)))
