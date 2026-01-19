@@ -40,6 +40,7 @@
    M-x compile                  | Compile
    C-c p !                      | Run shell command in project
    C-c C-o                      | Open outline
+   M-:                          | Evaluate elisp expression
 * Org Mode Commands
    TAB                          | Un-/Fold a section
    C-c C-c                      | Execute a code block
