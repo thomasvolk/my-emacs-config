@@ -33,7 +33,8 @@
              | C-c o            | Switch between windows (from terminal)
              | C-c b            | Switch between buffers (from terminal)
 * Spell check
-   M-$                          | Spellcheck the word below the cursor
+   M-$                          | Correct the current word
+   C-c l                        | Change dictionary
    M-x ispell                   | Spellcheck buffer
    M-x ispell-change-dictionary | Change spelling language
 * Development

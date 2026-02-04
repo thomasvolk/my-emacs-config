@@ -34,4 +34,5 @@
 (load "~/.emacs.d/git.el")
 (load "~/.emacs.d/key-bindings.el")
 (load "~/.emacs.d/ai.el")
+(load "~/.emacs.d/spellcheck.el")
 (load "~/.emacs.d/help.el")

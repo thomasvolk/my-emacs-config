@@ -29,6 +29,13 @@ Install the language server via brew:
  brew install jdtls
 #+end_src
 
+Install spell checker:
+
+#+begin_src bash :tangle no
+ brew install aspell aspell-en aspell-de
+#+end_src
+
+
 * Installation:
 
 #+begin_src bash :tangle no
