@@ -35,4 +35,5 @@
 (load "~/.emacs.d/ai.el")
 (load "~/.emacs.d/spellcheck.el")
 (load "~/.emacs.d/help.el")
+(load "~/.emacs.d/clipboard.el")
 (load "~/.emacs.d/key-bindings.el")
