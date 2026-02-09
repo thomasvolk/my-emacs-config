@@ -28,6 +28,8 @@
    SPC x s                      | Open shell
    SPC p c                      | Compile project
    M-!                          | Execute shell command
+   M-|                          | Pipe current selection to a shell command
+   C-u M-|                      | Like M-| and replace the selection
    M-x shell                    | Open shell
    M-x term                     | Open terminal
              | C-c o            | Switch between windows (from terminal)
