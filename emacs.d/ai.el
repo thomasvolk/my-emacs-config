@@ -18,8 +18,6 @@
     (define-key copilot-completion-map (kbd "<tab>") 'copilot-accept-completion)
     (define-key copilot-completion-map (kbd "TAB") 'copilot-accept-completion)
     (global-set-key (kbd "C-c a") 'copilot-mode)
-    (add-hook 'prog-mode-hook 'copilot-mode)
-    (add-hook 'text-mode-hook 'copilot-mode)
     (setq copilot-indent-offset-warning-disable t)
   )
 )
