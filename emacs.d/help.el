@@ -49,6 +49,8 @@
    C-c C-c                      | Execute a code block
    C-c C-q                      | Add tag to a section (example TOC)
    <s TAB                       | Add source block
+   C-c C-o                      | Open a link
+   C-c C-l                      | create a link
 * Projectile
    C-c p p                      | Switch project
    C-c p f                      | Open file in project
