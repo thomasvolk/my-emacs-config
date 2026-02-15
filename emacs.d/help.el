@@ -51,6 +51,8 @@
    <s TAB                       | Add source block
    C-c C-o                      | Open a link
    C-c C-l                      | create a link
+   C-c C-t                      | rotate TODO state
+   S-RIGHT S-LEFT               | rotate TODO state
 * Projectile
    C-c p p                      | Switch project
    C-c p f                      | Open file in project
