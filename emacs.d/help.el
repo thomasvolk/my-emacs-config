@@ -52,6 +52,7 @@
    C-c C-t                      | Rotate TODO state
    S-RIGHT S-LEFT               | Rotate TODO state
    M Shift Return               | Add new check list item
+   C-c C-w                      | Move subsection to another section 
 * Projectile
    C-c p p                      | Switch project
    C-c p f                      | Open file in project
