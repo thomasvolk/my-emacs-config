@@ -18,9 +18,7 @@
    C-x Right                    | Next buffer
    C-x Left                     | Prev buffer
 * Editing
-   C-_                          | Undo
    C-/                          | Undo
-   C-g C-_                      | Redo
    C-g C-/                      | Redo
    C-u <n> <input>              | Repeates actions (e.g. C-u 8 * is adding eight * to the buffer)
    SPC a a                      | Toggle abbrev mode
@@ -50,9 +48,10 @@
    C-c C-q                      | Add tag to a section (example TOC)
    <s TAB                       | Add source block
    C-c C-o                      | Open a link
-   C-c C-l                      | create a link
-   C-c C-t                      | rotate TODO state
-   S-RIGHT S-LEFT               | rotate TODO state
+   C-c C-l                      | Create a link
+   C-c C-t                      | Rotate TODO state
+   S-RIGHT S-LEFT               | Rotate TODO state
+   M Shift Return               | Add new check list item
 * Projectile
    C-c p p                      | Switch project
    C-c p f                      | Open file in project
