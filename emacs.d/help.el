@@ -17,6 +17,10 @@
    C-x 0                        | Close window
    C-x Right                    | Next buffer
    C-x Left                     | Prev buffer
+* Windows
+   C-w Up Down Left Right       | Navigate to windows
+   C-w n                        | New window
+   C-w c                        | Close window
 * Editing
    C-/                          | Undo
    C-g C-/                      | Redo
