@@ -21,6 +21,8 @@
    C-w Up Down Left Right       | Navigate to windows
    C-w n                        | New window
    C-w c                        | Close window
+* Search
+   M-x rgrep                    | recursive search
 * Editing
    C-/                          | Undo
    C-g C-/                      | Redo
@@ -46,6 +48,7 @@
    C-c p !                      | Run shell command in project
    C-c C-o                      | Open outline
    M-:                          | Evaluate elisp expression
+   M-x ielm                     | emacs lisp REPL
 * Org Mode Commands
    TAB                          | Un-/Fold a section
    C-c C-c                      | Execute a code block
