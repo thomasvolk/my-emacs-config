@@ -21,6 +21,8 @@
    C-w Up Down Left Right       | Navigate to windows
    C-w n                        | New window
    C-w c                        | Close window
+   C-x 2                        | Split below
+   C-x 3                        | Split right
 * Search
    M-x rgrep                    | recursive search
 * Editing
