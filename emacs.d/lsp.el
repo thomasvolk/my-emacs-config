@@ -1,8 +1,3 @@
-(use-package tuareg
-  :ensure t
-  :custom
-  (tuareg-opam-insinuate t))
-
 (use-package ocaml-eglot
   :ensure t
   :hook
