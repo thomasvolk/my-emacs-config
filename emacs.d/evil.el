@@ -1,3 +1,4 @@
+;;; evil.el --- -*- lexical-binding: t -*-
 (use-package evil
   :ensure t
   :init

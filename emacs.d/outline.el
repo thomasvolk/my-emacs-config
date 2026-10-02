@@ -1,3 +1,4 @@
+;;; outline.el --- -*- lexical-binding: t -*-
 ;; Outline and code structure navigation
 (use-package outline
   :ensure nil ;; built-in

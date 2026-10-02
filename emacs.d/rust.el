@@ -1,3 +1,4 @@
+;;; rust.el --- -*- lexical-binding: t -*-
 (use-package rustic
   :ensure t
   :custom

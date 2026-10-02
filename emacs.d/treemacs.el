@@ -1,3 +1,4 @@
+;;; treemacs.el --- -*- lexical-binding: t -*-
 (use-package treemacs
   :ensure t
   :config

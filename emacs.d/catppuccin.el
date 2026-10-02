@@ -1,3 +1,4 @@
+;;; catppuccin.el --- -*- lexical-binding: t -*-
 ;; MELPA package name is catppuccin-theme; the library only provide-theme's
 ;; `catppuccin`, not `catppuccin-theme`, so :no-require is required.
 (setq emacs-theme (getenv "MY_EMACS_THEME"))

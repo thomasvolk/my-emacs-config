@@ -1,12 +1,9 @@
+;;; ai.el --- -*- lexical-binding: t -*-
 
 (setq emacs-ai-provider (getenv "EMACS_EDITOR_AI"))
-(setq ai-provider
-  (if
-    (eq emacs-ai-provider nil)
-    (getenv "EDITOR_AI")
-    emacs-ai-provider
-  )
-)
+;; Fall back to "" so string-search doesn't fail when neither variable is
+;; set (e.g. a daemon started by launchd without the shell environment).
+(setq ai-provider (or emacs-ai-provider (getenv "EDITOR_AI") ""))
 
 (when (string-search "copilot" ai-provider)
   (progn

@@ -1,3 +1,4 @@
+;;; lsp.el --- -*- lexical-binding: t -*-
 (use-package ocaml-eglot
   :ensure t
   :hook

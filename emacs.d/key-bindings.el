@@ -1,3 +1,4 @@
+;;; key-bindings.el --- -*- lexical-binding: t -*-
 ;; Key bindings
 (global-set-key (kbd "<C-return>") 'dabbrev-completion)
 (global-set-key (kbd "M-#") 'dabbrev-expand)

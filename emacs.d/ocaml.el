@@ -1,3 +1,4 @@
+;;; ocaml.el --- -*- lexical-binding: t -*-
 ;; Major mode for OCaml programming
 (use-package tuareg
   :ensure t

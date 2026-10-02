@@ -1,3 +1,4 @@
+;;; help.el --- -*- lexical-binding: t -*-
 
 (defun my-little-help ()
   (interactive)

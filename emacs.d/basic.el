@@ -1,3 +1,4 @@
+;;; basic.el --- -*- lexical-binding: t -*-
 ;; Redirect Custom writes to a separate file so auto-generated code
 ;; never pollutes hand-edited modules.
 (setq custom-file (expand-file-name "custom.el" user-emacs-directory))
