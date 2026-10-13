@@ -75,9 +75,4 @@
              | C-c C-c          | Exit editor and commit
              | P u              | Push changes
              | q                | Quit
-* AI
-   C-c e c c                    | Ellama code complete
-   C-c e a i                    | Ellama chat
-   C-c a                        | Copilot toggle
-   <leader> F3                  | Copilot toggle
 ")))
